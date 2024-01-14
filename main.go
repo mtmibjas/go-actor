@@ -87,7 +87,7 @@ func (wa *WorkerActor) PerformTask(ctx context.Context, taskID int) error {
 
 func main() {
 
-	connectionString := "mongodb://innovent-user:hvBf0iaN5FX2lBWt@157.175.196.81:27017/innoventstaging?retryWrites=true&w=majority&authSource=admin&directConnection=true"
+	connectionString := ""
 
 	dbActor, err := NewDBActor(connectionString)
 	if err != nil {

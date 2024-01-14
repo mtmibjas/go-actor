@@ -25,7 +25,7 @@ var Mongo mongoDB
 
 func MongoInit() {
 
-	uri := "mongodb://innovent-user:hvBf0iaN5FX2lBWt@157.175.196.81:27017/innoventstaging?retryWrites=true&w=majority&authSource=admin&directConnection=true"
+	uri := ""
 
 	ctx, cancel := context.WithTimeout(context.Background(), 20*time.Second)
 	defer cancel()
